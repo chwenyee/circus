@@ -5,8 +5,8 @@ import circus.Asset;
 import java.util.Comparator;
 
 public abstract class Animal implements Asset {
-
     public String name;
+
     public abstract String speak();
 
     // Comparator can be put in Circus too, but we put here since it belongs to animal class
